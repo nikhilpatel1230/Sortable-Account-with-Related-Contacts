@@ -1,0 +1,14 @@
+<template>
+    <lightning-card title="Accounts with Contact Count">
+        <lightning-datatable
+            key-field="accountId"
+            data={data}
+            columns={columns}
+            sorted-by={sortBy}
+            sorted-direction={sortDirection}
+            onsort={handleSort}
+            onrowaction={handleRowAction}
+            hide-checkbox-column >
+        </lightning-datatable>
+    </lightning-card>
+</template>
