@@ -1,1 +1,2 @@
-# Sortable-Account-with-related-Contacts
+The component provided real-time changes in data like Accounts and related fields as well as it comes with features such as **sorting** with Account Name and Number of related contacts and **clickable Account**, when user clicks the perticular Account then it will **redirect** to the Account record-page.<br><br> **In Apex class:** <br> I used Aggregate queary because Standard SOQL can't return Account records with additional calculated fields like contact count. Also use a custom wrapper class (AccountWithContactCount) to return combined data (Account + extra info) to LWC.<br><br> **This gives you complete control over:**<br> What fields you want,
+How they are shaped, How the data is returned to the UI
